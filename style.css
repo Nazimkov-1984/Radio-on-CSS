@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  background: url(./bcg_img/radio.jpg) center center no-repeat;
+}
+
+.absolute {
+  position: absolute;
+}
+.contur {
+  top: 155px;
+  left: 593px;
+  border: 1px solid black;
+  background-color: #c0c0c0;
+  width: 265px;
+  height: 457px;
+  opacity: 0.5;
+  border-radius: 44px;
+}
+.side-button-top,
+.side-button-bottom {
+  background-color: black;
+  opacity: 0.9;
+  top: 249px;
+  left: 858px;
+  width: 7px;
+  height: 36px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 20px;
+}
+.side-button-bottom {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 6px;
+  top: 284px;
+  left: 858px;
+}
+.antenna {
+  top: 138px;
+  left: 612px;
+  width: 22px;
+  height: 12px;
+  background-color: #c0c0c0;
+  border-radius: 6px;
+}
+/* .antenna-ground {
+    top: 138px;
+    left: 612px;
+    width: 22px;
+    height: 0;
+    background-color: #c0c0c0;
+    border-bottom: 100px solid #c0c0c0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+} */
+.button-container {
+  display: flex;
+  top: 286px;
+  left: 634px;
+}
+.small-round-button {
+  background-color: rgb(15, 9, 1);
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  opacity: 0.6;
+}
+.small-round-button:not(:last-child),
+.big-round-button:not(:last-child) {
+  margin-right: 6px;
+}
+.button-big-container {
+  display: flex;
+  padding: 3px;
+  border: 1px solid darkgray;
+  top: 276px;
+  left: 741px;
+  border-radius: 23px;
+}
+.big-round-button {
+  background-color: rgb(15, 9, 1);
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 800;
+  color: rgba(51, 50, 49, 0.845);
+}
+.big-round-button--minus {
+  align-items: flex-start;
+}
+h1 {
+  top: 566px;
+  left: 671px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.text-buttons-container {
+  display: flex;
+  top: 259px;
+  left: 633px;
+}
+.buttos-text {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  color: aliceblue;
+}
+.buttos-text:not(:last-child) {
+  margin-right: 11px;
+}
+.screen {
+  top: 181px;
+  left: 626px;
+  background-color: black;
+  opacity: 0.6;
+  width: 200px;
+  height: 80px;
+  border-radius: 17px;
+  border-bottom-left-radius: 0;
+}
+.main-screen {
+  background-color: #a3ada9;
+  width: 90px;
+  height: 60px;
+  top: 17px;
+  left: 37px;
+  border-radius: 6px;
+  opacity: 0.6;
+}
+.divider,
+.horizontal-divider {
+  height: 80px;
+  width: 1px;
+  background-color: #a3ada9;
+  top: 0;
+  left: 154px;
+}
+.horizontal-divider {
+  height: 1px;
+  width: 46px;
+  top: 41px;
+}
+.bottom-part-screen {
+  background-color: black;
+  opacity: 0.6;
+  width: 130px;
+  height: 20px;
+  top: 260.5px;
+  left: 626px;
+  border-bottom-left-radius: 17px;
+  clip-path: polygon(0 100%, 88% 100%, 100% 0, 0 0)
+}
